@@ -1,9 +1,9 @@
-Clique aqui para ver o projeto
+Projeto online: Clique aqui
 
-#Codelândia Desafio 02
+<h2> Codelândia Desafio 02 </h2>
 
 Projeto construído a partir do desafio lançado pela comunidade Codelândia atravéis do figma.
 
-##Tecnologias 💻
+<h2> Tecnologias 💻 </h2>
 
--HTML -CSS
+HTML e CSS
