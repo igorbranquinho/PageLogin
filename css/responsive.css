@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+    .container2 {
+      display: revert;
+      margin-top: 60px;
+    }
+  }
+
+@media (max-width: 767px) {
+    .localleft {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .localright {
+      width: auto;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .footer {
+      margin-top: 95px;
+    }
+  }

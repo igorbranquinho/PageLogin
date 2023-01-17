@@ -1,0 +1,199 @@
+.localleft{
+    width: 55%;
+    height: 100%;
+    background-color: #F7FAFC; 
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 902px;
+    width: 100%;
+    
+}
+
+.localright{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+}
+
+
+
+h1{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #1A202C;
+}
+
+h3{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A202C;
+    margin-bottom: 7px;
+}
+
+.login-opcoes{
+    margin-top: 39px;
+ 
+}
+
+.controle-input{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px; 
+}
+
+.names{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A202C;
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.login-check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-check input[type="checkbox"]{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: rgb(243, 230, 230);
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 11px;     
+}
+
+label{
+    display: inline-block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A202C;
+}
+
+.esqueceu{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2B6CB0;
+    margin-left: 48px;
+    cursor: pointer;
+}
+
+.login-botoes{
+    display: flex;
+    flex-flow: column;
+    max-width: 350px;
+}
+
+
+.botaoVerde{
+    margin-top: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px 61px;
+    color: white;
+    background: #04C45C;
+    border-radius: 5px;
+}
+
+.botaoGoogle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato';
+    margin-top: 15px;
+    padding: 15px 40px;
+    color: white;
+    background: #1A202C;
+    border-radius: 5px;
+}
+
+.cadastra{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 162px;
+    margin-bottom: 50px;
+}
+
+.text01{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A202C;
+
+}
+
+.text02{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2B6CB0;
+    cursor: pointer;
+}
+
+#imggoogle{
+    width: 24px;
+    margin-right: 11px;
+}
+
+.login-check input[type="checkbox"]:active {
+    background-color: gray;
+}
+
+.login-check input[type="checkbox"]:hover 
+{ background-color: gray; 
+transition: 0.2s;
+}
+
+.botaoVerde:hover 
+{ background-color: #01a24c; 
+transition: 0.5s;
+}
